@@ -68,3 +68,21 @@ h2 {
 .mt-4 {
   margin-top: 20px;
 }
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: #333 !important;
+}
+
+.nav-link:hover {
+  color: #A65E39 !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}

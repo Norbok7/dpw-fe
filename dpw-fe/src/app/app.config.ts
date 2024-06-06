@@ -5,6 +5,7 @@ import { routes } from './app.routes';
 import { provideNgxStripe } from 'ngx-stripe';
 import { environment } from '../../environment';
 
+
 export const appConfig: ApplicationConfig = {
   providers: [provideRouter(routes),
   provideHttpClient(),
