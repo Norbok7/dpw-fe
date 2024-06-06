@@ -1,9 +1,11 @@
-<h2>Payment</h2>
-<form [formGroup]="stripeTest" (ngSubmit)="pay()">
-  <label for="name">Name</label>
-  <input type="text" id="name" formControlName="name" placeholder="Jane Doe" required>
-
-  <ngx-stripe-card [options]="cardOptions" [elementsOptions]="elementsOptions"></ngx-stripe-card>
-
-  <button type="submit">Pay</button>
-</form>
+<div class="container">
+  <h2>Payment</h2>
+  <form [formGroup]="stripeTest" (ngSubmit)="pay()">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" formControlName="name" placeholder="Jane Doe" class="form-control" required>
+    </div>
+    <ngx-stripe-card [options]="cardOptions" [elementsOptions]="elementsOptions"></ngx-stripe-card>
+    <button type="submit" class="btn btn-primary">Pay</button>
+  </form>
+</div>
