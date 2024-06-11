@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+You can add global styles to this file, and also import other style files
 body {
   font-family: Arial, sans-serif;
   background-color: #F5F5F5;
@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 75%;
   margin: 20px auto;
   background: #FFFFFF;
   padding: 20px;
